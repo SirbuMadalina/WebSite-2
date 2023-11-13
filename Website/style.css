@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+
+body{
+    background-color: rgb(172, 137, 84);
+    margin:0;
+    color:#ededed;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    background: rgb(43,116,106);
+    background: linear-gradient(90deg, rgba(43,116,106,1) 0%, rgba(80,180,165,1) 46%);
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+.top-section{
+display: flex;
+width: 66.6%;
+border: 2px solid #ededed;
+padding: 20px;
+box-sizing:border-box;
+margin: 20px 0;
+}
+
+ul{
+ display: flex;
+ margin:0;
+ padding:0;
+
+}
+
+li{
+    list-style-type: none;
+    padding:0 10px;
+
+}
+
+.logo{
+flex-grow:2;
+
+}
+
+nav{
+flex-grow:2;
+justify-content: center;
+}
+
+.mdi {
+    font-size: 40px;
+    transition: 1s;
+}
+
+.mdi:hover {
+    color: coral;
+
+}
+
+.search{
+flex-grow:2;}
+
+
+.bottom-section {
+width: 66.6%;
+border: 2px solid #ededed;
+padding: 20px;  /* keep it below 20 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! to be adjustable for phone too*/
+}
+
+.hero-home-btn{
+    background-color: blueviolet;
+    border:1px solid #ededed;
+    color: antiquewhite;
+    padding:10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    margin:0 0 0 0;
+    position: absolute;
+    z-index: 24;
+}
+
+
